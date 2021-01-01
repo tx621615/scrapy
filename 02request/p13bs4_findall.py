@@ -12,6 +12,7 @@ string: <>…</>中字符串区域的检索字符串
 简便写法：
 <tag>(..) 等价于 <tag>.find_all(..)
 soup(..) 等价于 soup.find_all(..)
+**kwargs：找某个标签的属性键值对
 '''
 url = "http://python123.io/ws/demo.html"
 r = requests.get(url)
